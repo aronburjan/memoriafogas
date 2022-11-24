@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379494165262",
+    "project_id": "fogas-app",
+    "storage_bucket": "fogas-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379494165262:android:809aa124828cf9369bc55f",
+        "android_client_info": {
+          "package_name": "com.example.fogas_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379494165262-5m88tgiamtqai1igmupnho3r5gji5ftt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmYGXvtV9TQhkEu2dUAQorQRQjznd19_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379494165262-5m88tgiamtqai1igmupnho3r5gji5ftt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

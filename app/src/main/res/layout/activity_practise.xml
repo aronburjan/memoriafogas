@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/randomNumberBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD05C"
+    tools:context=".practise">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/feladat_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10pt"
+            android:text="Készíts memóriafogast!"
+            android:textAlignment="center"
+
+            android:textColor="#415B6B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/random_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Választhatsz random generált sorozatot!"
+            android:textColor="#415B6B" />
+
+        <Button
+            android:id="@+id/random_btn"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginBottom="10pt"
+            android:backgroundTint="#415B6B"
+            android:gravity="center"
+            android:text="Random sorozatot kérek!"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/sajat_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Használhatsz saját számsorozatot is!"
+            android:textColor="#415B6B" />
+
+        <Button
+            android:id="@+id/sajat_btn"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginBottom="10pt"
+            android:backgroundTint="#415B6B"
+            android:gravity="center"
+            android:text="Saját sorozatot használok!"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/sajat_sor_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add meg a sorozatot!"
+            android:textColor="#415B6B" />
+
+        <EditText
+            android:id="@+id/sorozat_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/help_screen"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_marginLeft="6pt"
+                android:layout_marginBottom="10pt"
+                android:backgroundTint="#415B6B"
+                android:gravity="center"
+                android:text="Segítség!"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/pair_button"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_marginLeft="8pt"
+                android:layout_marginBottom="10pt"
+                android:backgroundTint="#415B6B"
+                android:gravity="center"
+                android:text="Párosításom"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/memoriafogas_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Ide írhatod a memóriafogast!" />
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="20pt"
+            android:layout_marginBottom="10pt"
+            android:backgroundTint="#415B6B"
+            android:gravity="center"
+            android:text="Vissza"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

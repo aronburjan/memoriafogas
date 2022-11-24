@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Memóriafogas</string>
+    <string name="heading_one">Miről is van szó?</string>
+    <string name="heading_two">Készíts listát!</string>
+    <string name="heading_three">Például!</string>
+    <string name="heading_four"> Hogyan használd?</string>
+    <string name="heading_five"> Mi ennek a célja?</string>
+
+    //Description
+    <string name="desc_one">  A memóriafogas rendszere egy általunk előre összeállított listát alkalmaz, amelynek elemeit sorban hozzá lehet kötni a megjegyzendő elemekhez. Mindez egy lista kitalálásával kezdődik.</string>
+    <string name="desc_two">    Az „ABC” alapú esetében minden betűhöz rendelünk egy olyan szót vagy kifejezést, amit fejben könnyen el tudunk képzelni, ebből kiindulva ezek lehetnek állatok</string>
+    <string name="desc_three"> A – Ablak, B – Bicikli, C - Cipő), cselekvések (például: A – Altat, B – Bújik, C - Cipe</string>
+    <string name="desc_four">A kész lista elemei szolgálnak fogasként ebben a módszerben, ezekhez tudjuk kötni a megjegyzendő dolgokat. Ahhoz, hogy ez a rendszer jól működjön mindenki számára ajánlott az egyedi lista elkészítése</string>
+    <string name="desc_five">    A memóriafogas módszer segíthet tanulásban, javítja a memóriát és alkalmazható a mindennapokban is, például, ha bevásárlólistát, vagy egy telefonszámot kell megjegyeznünk</string>
+
+
+</resources>
